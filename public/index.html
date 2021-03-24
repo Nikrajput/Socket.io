@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="socket.io/socket.io.js"></script>
+    <script async defer src="./client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Socket.IO</h1>
+    <div>
+        Socket Id= <span id="socketid"></span>
+    </div>
+    <br>
+    <select id="selectedcolor">
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>cyan</option>
+        <option>magebta</option>
+    </select>
+    <button id="colorit">Color</button>
+
+    <div class="container">
+        <div class="colorbox red"></div>
+        <div class="colorbox blue"></div>
+        <div class="colorbox green"></div>
+        <div class="colorbox magenta"></div>
+        <div class="colorbox cyan"></div>
+    </div>
+</body>
+</html>
